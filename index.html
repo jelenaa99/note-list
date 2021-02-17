@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>note list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="add-note">
+        <a href="#myModal" class="add-note">add note</a>
+    </div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <h1 class="header">
+                add note
+            </h1>
+            <form action="" class="note-form">
+                <label for="">title</label></br>
+                <input type="text" class="title"></br>
+                <label for="">note</label></br>
+                <input type="text" class="note"></br>
+                <input type="submit" class="submit">
+                <div class="cancel">
+                    <a href="#close" class="cancel-btn">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <table class="note-table">
+        <tr>
+            <td class="header">title</td>
+            <td class="header">note</td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
